@@ -5,9 +5,14 @@
 @media (min-width: 769px) {
 
   .main-header,
-  .main-nav {
+  .main-nav,
+  .row {
     display: flex;
 
+  }
+
+  .col {
+    flex: 1;
   }
 
   .main-header {
@@ -24,6 +29,10 @@
     flex-direction: row;
     justify-content: space-between;
 
+  }
+
+  .primary {
+    flex: 2;
   }
 
 
