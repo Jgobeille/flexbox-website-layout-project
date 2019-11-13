@@ -33,7 +33,7 @@
   }
 
   .col-2 {
-    flex: 1;
+    flex: 1 400px;
     flex-direction: column;
   }
 
